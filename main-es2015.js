@@ -1930,7 +1930,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 36, vars: 0, consts: [[1, "home"], ["id", "carouselExampleCaptions", "data-ride", "carousel", 1, "carousel", "slide"], [1, "carousel-indicators"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "0", 1, "active"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "1"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "2"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "./../../assets/image/slider-1.jpg", "alt", "...", 1, "d-block", "w-100"], [1, "carousel-caption", "d-none", "d-md-block"], ["routerLink", "AllCollection"], [1, "carousel-item"], ["src", "./../../assets/image/slider-2.jpg", "alt", "...", 1, "d-block", "w-100"], ["src", "./../../assets/image/slider-3.jpg", "alt", "...", 1, "d-block", "w-100"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 36, vars: 0, consts: [[1, "home"], ["id", "carouselExampleCaptions", "data-ride", "carousel", 1, "carousel", "slide"], [1, "carousel-indicators"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "0", 1, "active"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "1"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "2"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "././././././assets/image/slider-1.jpg", "alt", "...", 1, "d-block", "w-100"], [1, "carousel-caption", "d-none", "d-md-block"], ["routerLink", "AllCollection"], [1, "carousel-item"], ["src", "././././././assets/image/slider-2.jpg", "alt", "...", 1, "d-block", "w-100"], ["src", "././././././assets/image/slider-3.jpg", "alt", "...", 1, "d-block", "w-100"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -2720,7 +2720,6 @@ class DeleteCollectionComponent {
         });
     }
     print(x) {
-        console.log(x);
         this.api.getById(x).subscribe((data) => {
             this.object = data;
         });
@@ -2955,7 +2954,6 @@ class UpdateCollectionComponent {
         });
     }
     print(x) {
-        console.log(x);
         this.api.getById(x).subscribe((data) => {
             this.object = data;
         });
@@ -3055,7 +3053,6 @@ class NavbarComponent {
     }
     search(event) {
         this.searchTerm = event.target.value;
-        console.log(this.searchTerm);
         this.cartService.search.next(this.searchTerm);
     }
     open(box, spin) {
@@ -3064,7 +3061,7 @@ class NavbarComponent {
     }
 }
 NavbarComponent.ɵfac = function NavbarComponent_Factory(t) { return new (t || NavbarComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_service_func_service__WEBPACK_IMPORTED_MODULE_1__["FuncService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_service_cart_service__WEBPACK_IMPORTED_MODULE_2__["CartService"])); };
-NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 79, vars: 3, consts: [[1, "navbar", "navbar-expand-lg", "navbar-dark", "bg-dark"], [1, "container"], ["type", "button", "data-toggle", "collapse", "data-target", "#mainNav", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "mainNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mr-auto"], [1, "nav-item"], ["routerLink", "/cart", 1, "nav-link"], ["routerLink", "/checkout", 1, "nav-link"], ["routerLink", "/login", 1, "nav-link"], [1, "form-inline", "my-2", "my-lg-0"], ["type", "text", "placeholder", "search products", 1, "form-control", "mr-sm-2", "search", 3, "ngModel", "ngModelChange", "keyup"], [1, "fa", "fa-search"], [1, "shopping-cart", "mt-md-0", "mt-4", "d-block"], ["routerLink", "/cart", 1, "fas", "fa-shopping-cart"], [1, "nav-colletions", "navbar", "navbar-expand-lg", "navbar-light", "bg-light", "d-lg-block", "d-none"], [1, "collapse", "navbar-collapse"], [1, "navbar-nav", "m-auto", "align-items-center"], ["routerLink", "/AllCollection", 1, "nav-link"], [1, "sr-only"], ["routerLink", "/CollectionFmale", 1, "nav-link"], ["routerLink", "/CollectionMale", 1, "nav-link"], ["routerLink", "", 1, "nav-link"], ["src", "../../../assets/image/logo.png", "alt", ""], ["routerLink", "/CollectionSpring", 1, "nav-link"], ["routerLink", "/CollectionSummer", 1, "nav-link"], ["routerLink", "/CollectionWinter", 1, "nav-link"], [1, "main-nav-collection", "navbar-expand-lg", "navbar-light", "bg-light", "d-lg-none", "d-block"], ["box", ""], [1, "toggle-collection", 3, "click"], [1, "fas", "fa-fan", "fan-icon"], ["spin", ""], [1, "nav-collection-content"], ["src", "./../../assets/image/logo.png", "alt", ""]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
+NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 79, vars: 3, consts: [[1, "navbar", "navbar-expand-lg", "navbar-dark", "bg-dark"], [1, "container"], ["type", "button", "data-toggle", "collapse", "data-target", "#mainNav", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "mainNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mr-auto"], [1, "nav-item"], ["routerLink", "/cart", 1, "nav-link"], ["routerLink", "/checkout", 1, "nav-link"], ["routerLink", "/login", 1, "nav-link"], [1, "form-inline", "my-2", "my-lg-0"], ["type", "text", "placeholder", "search products", 1, "form-control", "mr-sm-2", "search", 3, "ngModel", "ngModelChange", "keyup"], [1, "fa", "fa-search"], [1, "shopping-cart", "mt-md-0", "mt-4", "d-block"], ["routerLink", "/cart", 1, "fas", "fa-shopping-cart"], [1, "nav-colletions", "navbar", "navbar-expand-lg", "navbar-light", "bg-light", "d-lg-block", "d-none"], [1, "collapse", "navbar-collapse"], [1, "navbar-nav", "m-auto", "align-items-center"], ["routerLink", "/AllCollection", 1, "nav-link"], [1, "sr-only"], ["routerLink", "/CollectionFmale", 1, "nav-link"], ["routerLink", "/CollectionMale", 1, "nav-link"], ["routerLink", "", 1, "nav-link"], ["src", "../../../assets/image/logo.png", "alt", ""], ["routerLink", "/CollectionSpring", 1, "nav-link"], ["routerLink", "/CollectionSummer", 1, "nav-link"], ["routerLink", "/CollectionWinter", 1, "nav-link"], [1, "main-nav-collection", "navbar-expand-lg", "navbar-light", "bg-light", "d-lg-none", "d-block"], ["box", ""], [1, "toggle-collection", 3, "click"], [1, "fas", "fa-fan", "fan-icon"], ["spin", ""], [1, "nav-collection-content"], ["src", "././././././assets/image/logo.png", "alt", ""]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
         const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "header");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nav", 0);
