@@ -4,7 +4,10 @@
 - single page application
 - HTML
 - CSS
+- javaScript
 - TypeScript
+- Bootstrap
+- Angular
 ## Getting started
 Install Json Server
 
