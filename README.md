@@ -1,6 +1,6 @@
 ![Screenshot 2021-10-15 045433](https://user-images.githubusercontent.com/83503164/137424781-0a5c1942-2580-4c99-b7ea-0a3b522fa539.png)
 
-# [gabooo](https://saicoo.github.io/angular-gabooo/)
+# [e-commerce store](https://saicoo.github.io/angular-gabooo/)
 - single page application
 - HTML
 - CSS
